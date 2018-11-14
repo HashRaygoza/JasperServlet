@@ -38,13 +38,13 @@ public class Factura {
         parametros.put("emailEstacion", "abastos@cabastos.com.mx");
         
         parametros.put("cliente", "Cliente de prueba");
-        parametros.put("direccionCliente", "Dirección de prueba");
+        parametros.put("direccionCliente", "DirecciÃ³n de prueba");
         parametros.put("rncCliente", "PRU3232323RRR");
         parametros.put("telefonoCliente", "77-77-77");
         parametros.put("e-mail", "prueba@cliente.net");
         parametros.put("ncf", "A9999");
         parametros.put("fechaNCF", "2018-11-13");
-        parametros.put("total", "999.99");
+        parametros.put("total", 999.99);
         
         JasperReport reporte = this.inicializarReporte();
         JRBeanCollectionDataSource dataSource = new JRBeanCollectionDataSource(this.conceptos());
